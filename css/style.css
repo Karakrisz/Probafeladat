@@ -1,0 +1,282 @@
+@font-face {
+
+    src: url(../Cambo/Cambo-Regular.ttf);
+    font-family: Cambo-Regular;
+
+}
+
+@font-face {
+
+    src: url(../Yellowtail/Yellowtail-Regular.ttf);
+    font-family: Yellowtail-Regular;
+
+}
+
+body {
+    max-width: 1490px;
+    margin: auto;
+}
+
+
+nav a {
+    text-decoration: none;
+}
+
+nav {
+    position: relative;
+    top: 4em;
+    line-height: 100%;
+}
+
+
+/* Section */
+
+section.stretch {
+    height: 1500px;
+    width: 100%;
+}
+
+
+/* Header */
+
+header {
+    background-color: #1c1c1c;
+    width: 100%;
+    padding-left: 250px;
+    padding-right: 250px;
+    max-width: 1490px;
+    margin: auto;
+
+}
+
+.kereso {
+    background-color: #1c1c1c;
+    border: 1px solid #2c2c2c;
+}
+
+.kereso_gomb {
+    background-color: #3e3e3e;
+    border-radius: 30%;
+    position: relative;
+    left: 5px;
+}
+
+/* header large */
+header.large {
+    height: 185px;
+}
+
+header.large img {
+}
+
+header.large li {
+    margin-top: 52px;
+}
+
+header.large .logo {
+    font-family: Cambo-Regular;
+    font-size: 60px;
+    position: relative;
+    color: white;
+
+}
+
+header.large .logo_p {
+    position: relative;
+    color: white;
+    font-size: 16px;
+
+}
+
+
+/* header small */
+
+header.small {
+    height: 80px;
+}
+
+header.small .logo {
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+header.small .logo_p {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    position: relative;
+    bottom: 28px;
+    color: white;
+}
+
+.small .kereso_doboz {
+    position: relative;
+    bottom: 30px;
+}
+
+
+/* Transitions */
+
+header,
+nav,
+a,
+.logo,
+.logo_p {
+    transition: .7s all;
+    -moz-transition: .7s all;
+    -webkit-transition: .7s all;
+    -o-transition: .7s all;
+}
+
+.kep_tartalom {
+    position: relative;
+    top: 11em;
+    height: 600px;
+    background-image: url(../img/header_bg.png);
+    background-repeat: repeat-x;
+}
+
+.kep_tartalom_feliratok {
+
+    position: relative;
+    top: 10em;
+
+}
+
+.only {
+    font-family: Cambo-Regular;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 531px;
+    height: 75px;
+    text-align: center;
+}
+
+.custumer {
+    font-family: Cambo-Regular;
+    font-size: 40px;
+    background-color: rgba(0, 0.8, 0.8, 0.3);
+    width: 367px;
+    height: 65px;
+    text-align: center;
+}
+
+.test_tartalom{
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: #cdcdcd;
+    position: relative;
+    top: 5em;
+    height: auto;
+    margin: auto;
+}
+
+.test_tartalom a {
+    position: relative;
+    bottom: 10px;
+    background-color: #4182a6;
+    text-decoration: none;
+    color: white;
+    padding: 5px 35px;
+    border-top-left-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+
+}
+
+.test_tartalom a:hover {
+    background-color: #dedede;
+}
+
+.test_tartalom h1 {
+    font-size: 70px;
+}
+.dobozok {
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+}
+
+.yellowtail {
+    font-family: Yellowtail-Regular;
+    font-size: 30px;
+
+}
+.doboz_tartalom_szoveg {
+    font-size: 14px;
+}
+
+.A_doboz {
+    background-color: white;
+    margin-right: 10px;
+    width: 230px;
+    height: auto;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 7%;
+}
+
+.A_doboz:hover {
+    background-color: #212121;
+    color: white;
+}
+
+.B_doboz {
+    background-color: white;
+    margin-right: 10px;
+    width: 230px;
+    height: auto;
+    border-bottom-left-radius: 7%;
+}
+
+.B_doboz:hover {
+    background-color: #212121;
+    color: white;
+}
+
+
+
+.C_doboz {
+    background-color: white;
+    margin-right: 10px;
+    width: 230px;
+    height: auto;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 7%;
+}
+
+.C_doboz:hover {
+    background-color: #212121;
+    color: white;
+}
+
+.D_doboz {
+    background-color: white;
+    margin-right: 10px;
+    width: 230px;
+    height: auto;
+    border-bottom-left-radius: 7%;
+}
+
+.D_doboz:hover {
+    background-color: #212121;
+    color: white;
+}
+
+.szoveg_doboz {
+    padding: 30px;
+    background-color: #b0afaf;
+}
+.iconok {
+   padding: 50px 0;
+}
+
+.lablec {
+    height: 180px;
+    background-color: #292929;
+    position: relative;
+    top: 4em;
+}

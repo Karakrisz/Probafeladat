@@ -1,0 +1,42 @@
+header {
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+header.small {
+    height: 120px;
+}
+
+.test_tartalom {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.A_doboz {
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.B_doboz {
+    border-bottom-left-radius: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.C_doboz {
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.D_doboz {
+    border-bottom-left-radius: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
