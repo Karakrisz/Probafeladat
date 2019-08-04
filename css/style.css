@@ -156,7 +156,7 @@ a,
     text-align: center;
 }
 
-.test_tartalom{
+.test_tartalom {
     padding-left: 250px;
     padding-right: 250px;
     background-color: #cdcdcd;
@@ -164,6 +164,8 @@ a,
     top: 5em;
     height: auto;
     margin: auto;
+    font-family: Cambo-Regular;
+    font-size: 20px;
 }
 
 .test_tartalom a {
@@ -188,6 +190,7 @@ a,
 .test_tartalom h1 {
     font-size: 70px;
 }
+
 .dobozok {
     position: relative;
     bottom: 80px;
@@ -199,6 +202,7 @@ a,
     font-size: 30px;
 
 }
+
 .doboz_tartalom_szoveg {
     font-size: 14px;
 }
@@ -231,7 +235,6 @@ a,
     background-color: #212121;
     color: white;
 }
-
 
 
 .C_doboz {
@@ -271,8 +274,9 @@ a,
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
+
 .iconok {
-   padding: 50px 0;
+    padding: 50px 0
 }
 
 .lablec {
