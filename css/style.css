@@ -218,12 +218,25 @@ a,
 
 .A_doboz {
     background-color: white;
-    margin-right: 10px;
+    margin-right: 5px;
     width: 230px;
     height: auto;
     border-top-left-radius: 10%;
     border-bottom-right-radius: 7%;
     padding-bottom: 30px;
+}
+
+.A_doboz:before {
+    content: attr();
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    line-height: 0.865em;
+    background: linear-gradient(0deg, #fff 0, transparent 80%);
+    -webkit-background-clip: text;
+
 }
 
 .A_doboz:hover {
@@ -233,7 +246,7 @@ a,
 
 .B_doboz {
     background-color: white;
-    margin-right: 10px;
+    margin-right: 5px;
     width: 230px;
     height: auto;
     border-bottom-left-radius: 7%;
@@ -248,7 +261,7 @@ a,
 
 .C_doboz {
     background-color: white;
-    margin-right: 10px;
+    margin-right: 5px;
     width: 230px;
     height: auto;
     border-top-left-radius: 10%;
@@ -263,7 +276,7 @@ a,
 
 .D_doboz {
     background-color: white;
-    margin-right: 10px;
+    margin-right: 5px;
     width: 230px;
     height: auto;
     border-bottom-left-radius: 7%;
