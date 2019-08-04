@@ -53,11 +53,13 @@ header {
     border: 1px solid #2c2c2c;
 }
 
-.kereso_gomb {
+.input-group > .input-group-append > .btn {
     background-color: #3e3e3e;
     border-radius: 30%;
     position: relative;
     left: 5px;
+    font-size: 13px;
+    color: white;
 }
 
 /* header large */
