@@ -8,6 +8,19 @@ header.small {
     height: 120px;
 }
 
+header.small .logo_p {
+    bottom: 0px;
+}
+
+header.small .logo {
+    bottom: 10px;
+}
+
+.small .kereso_doboz {
+    position: relative;
+    bottom: 10px;
+}
+
 .test_tartalom {
     text-align: center;
     padding-left: 100px;
