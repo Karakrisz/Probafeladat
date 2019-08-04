@@ -122,13 +122,13 @@ header.small .logo_p {
 
 header,
 nav,
-a,
+.kereso_doboz
 .logo,
 .logo_p {
-    transition: .7s all;
-    -moz-transition: .7s all;
-    -webkit-transition: .7s all;
-    -o-transition: .7s all;
+    transition: .4s all;
+    -moz-transition: .4s all;
+    -webkit-transition: .4s all;
+    -o-transition: .4s all;
 }
 
 .kep_tartalom {
@@ -226,18 +226,6 @@ a,
     padding-bottom: 30px;
 }
 
-.A_doboz:before {
-    content: attr();
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform-origin: bottom;
-    transform: rotateX(180deg);
-    line-height: 0.865em;
-    background: linear-gradient(0deg, #fff 0, transparent 80%);
-    -webkit-background-clip: text;
-
-}
 
 .A_doboz:hover {
     background-color: #212121;
